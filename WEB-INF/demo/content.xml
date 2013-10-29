@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view title="商品展示">
+	<grid fluid="false" span="6">
+		<input name="userId" label="帐号" validation="alpha"  prepend="@"></input>
+		<input name="name" label="商品名称" validation="alpha" prepend="书" append="None"></input>
+		<button offset="2" label="提交" href="#" disabled="false"/>
+	</grid>
+</view>
